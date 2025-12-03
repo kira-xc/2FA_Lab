@@ -18,9 +18,9 @@
 ## 🛠️ المتطلبات
 
 قبل تثبيت المشروع، تأكّد من وجود:
-Python 3
-pip
-git
+- Python 3
+- pip
+- git
 
 بيئة عمل افتراضية (اختياري لكن مستحسن)
 
@@ -43,14 +43,14 @@ cd 2FA_Lab
 
 ### ⚙️ تعديل المعلومات في  app.py
 قم بوضع الايميل و كلمة السر لكي يعمل الارسال
-```
-FLASK_SECRET_KEY=your-secret-key
-MAIL_SERVER=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USE_TLS=True
-**MAIL_USERNAME=your-email@gmail.com**
-**MAIL_PASSWORD=your-app-password**
-```
+
+`FLASK_SECRET_KEY=your-secret-key`
+`MAIL_SERVER=smtp.gmail.com`
+`MAIL_PORT=587`
+`MAIL_USE_TLS=True`
+**`MAIL_USERNAME=your-email@gmail.com`**
+**`MAIL_PASSWORD=your-app-password`**
+
 
 
 
@@ -79,8 +79,8 @@ http://127.0.0.1:5000
 إذا لا تعرف كيف تضبط SMTP من Gmail، هذا شرح بسيط في يوتيوب:
 
 - 🎥 تعليم إنشاء App Password في Gmail:
-[https://www.youtube.com/watch?v=74QQfPrk4vE](https://www.youtube.com/watch?v=74QQfPrk4vE)
+- [https://www.youtube.com/watch?v=74QQfPrk4vE](https://www.youtube.com/watch?v=74QQfPrk4vE)
 
 - 🎥 شرح إعداد SMTP في Flask Mail (مثال شبيه):
-[https://www.youtube.com/watch?v=wniM7sU0bmU](https://www.youtube.com/watch?v=wniM7sU0bmU)
+- [https://www.youtube.com/watch?v=wniM7sU0bmU](https://www.youtube.com/watch?v=wniM7sU0bmU)
 
