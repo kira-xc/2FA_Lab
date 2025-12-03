@@ -44,10 +44,12 @@ cd 2FA_Lab
 ### ⚙️ تعديل المعلومات في  app.py
 قم بوضع الايميل و كلمة السر لكي يعمل الارسال
 
-```FLASK_SECRET_KEY=your-secret-key
+```
+FLASK_SECRET_KEY=your-secret-key
 MAIL_SERVER=smtp.gmail.com
 MAIL_PORT=587
-MAIL_USE_TLS=True```
+MAIL_USE_TLS=True
+```
 **`MAIL_USERNAME=your-email@gmail.com`**
 **`MAIL_PASSWORD=your-app-password`**
 
