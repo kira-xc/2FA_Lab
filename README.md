@@ -27,7 +27,7 @@
 ## 📥 التثبيت
 
 انسخ المشروع:
-```console
+```bash
 git clone https://github.com/kira-xc/2FA_Lab
 cd 2FA_Lab
 ```
@@ -44,7 +44,7 @@ cd 2FA_Lab
 ### ⚙️ تعديل المعلومات في  app.py
 قم بوضع الايميل و كلمة السر لكي يعمل الارسال
 
-```console
+```bash
 FLASK_SECRET_KEY=your-secret-key
 MAIL_SERVER=smtp.gmail.com
 MAIL_PORT=587
